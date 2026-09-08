@@ -3,7 +3,12 @@
 The public privacy policy for **Which First**, a visual schedule app by
 UTrendtek, Inc.
 
-Published at <https://utrendtek.github.io/which-first-privacy/>
+Two pages, both public:
+
+- Privacy policy — <https://utrendtek.github.io/which-first-privacy/>
+- Support — <https://utrendtek.github.io/which-first-privacy/support.html>
+
+Apple requires a Support URL that resolves before it will accept a submission.
 
 The policy is one self-contained HTML file: no trackers, no external requests,
 no fonts loaded from anywhere. The app it describes collects nothing and makes
