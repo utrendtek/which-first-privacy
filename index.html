@@ -74,17 +74,27 @@ would mean losing every photograph you took when you replace your phone.</p>
 
 <h2>No internet connection</h2>
 <p>Which First makes no network requests of any kind.</p>
-<p>On <strong>Android</strong>, the app asks for <strong>no permissions</strong>,
-including no <code>INTERNET</code> permission. This means the operating system
-itself prevents the app from connecting to a network, whatever the app might
-attempt. You can verify this yourself in the Play listing's permission list.</p>
+<p>On <strong>Android</strong>, the app asks for <strong>one permission</strong>:
+the microphone, so that a grown-up can record their own voice saying the words on
+the cards. It is asked for only when someone taps record — never when the app
+starts, and never on a child's screen. You can verify this yourself in the Play
+listing's permission list.</p>
+<p><strong>It still has no <code>INTERNET</code> permission</strong>, and that is
+what makes the microphone safe rather than alarming. The operating system itself
+prevents this app from connecting to a network, whatever the app might attempt.
+A recording therefore cannot leave your device — not to us, not to anyone. That
+is not a promise in a document; it is enforced by Android, and it is checkable in
+the same permission list.</p>
+<p>Recordings are kept on your device beside the photographs, and are deleted
+along with the card they belong to.</p>
 <p>If you inspect the app file directly you will find one permission entry ending
 <code>DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>. It is added automatically
 by a standard Android support library, it is defined by this app for this app,
 and it grants access to nothing on your device. We mention it because we would
 rather tell you than have you find it.</p>
 <p>On <strong>iOS</strong>, the app's App Privacy information records that
-<strong>no data is collected</strong>.</p>
+<strong>no data is collected</strong>. iOS asks for the microphone the first time
+a grown-up taps record. You may refuse, and everything else carries on working.</p>
 
 <h2>Children</h2>
 <p>This app is intended to be set up by a parent, carer or professional, and used
@@ -92,6 +102,7 @@ by a child.</p>
 <table>
   <tr><th>Personal information collected from anyone, including children</th><td>None</td></tr>
   <tr><th>Accounts, sign-in or profiles held by us</th><td>None</td></tr>
+  <tr><th>Voice recordings made in the app</th><td>Kept on your device only. Never sent anywhere — the app has no network access</td></tr>
   <tr><th>Advertising</th><td>None</td></tr>
   <tr><th>In-app purchases</th><td>None</td></tr>
   <tr><th>Chat, sharing, or any way for a child to contact anyone</th><td>None</td></tr>
